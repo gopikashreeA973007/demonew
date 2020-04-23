@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.416537">
+<testcase classname="Test registration functional" name="Test registration with valid inputs given" time="41.416537">
+<system-out><![CDATA[Given user launches chrome browser..........................................passed
+When user navigates to registration page....................................passed
+And user enters with username as "tomboy"...................................passed
+And user enters with firstname as "aarthi"..................................passed
+And user enters with lastname as "gopi".....................................passed
+And user enters with password as "password123"..............................passed
+And user enters with confirmpassword as "Password123".......................passed
+And user enters with gender as "female".....................................passed
+And user enters with email as "rthigopikas@gmail.com".......................passed
+And user enters with mobilenumber as "9840692787"...........................passed
+And user enters with dob as "20/02/1999"....................................passed
+And user enters with address as "perungalathur".............................passed
+And user enters with Security as "what is your nick name"...................passed
+And user enters with answer as "chennai"....................................passed
+Then verify registration success............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

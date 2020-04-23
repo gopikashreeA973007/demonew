@@ -1,0 +1,275 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Test registration with valid inputs given",
+        "description": "",
+        "id": "test-registration-functional;test-registration-with-valid-inputs-given",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16151284483,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches chrome browser",
+            "match": {
+              "location": "stepdef1.user_launches_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23941425364,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to registration page",
+            "match": {
+              "location": "stepdef1.user_navigates_to_registration_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97052981,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters with username as \"tomboy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomboy\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdef1.user_enters_with_username_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95363932,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters with firstname as \"aarthi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aarthi\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdef1.user_enters_with_firstname_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89731073,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters with lastname as \"gopi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gopi\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdef1.user_enters_with_lastname_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114423345,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters with password as \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdef1.user_enters_with_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102535004,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters with confirmpassword as \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepdef1.user_enters_with_confirmpassword_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83673077,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters with gender as \"female\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"female\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdef1.user_enters_with_gender_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130927260,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters with email as \"rthigopikas@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rthigopikas@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdef1.user_enters_with_email_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117828190,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters with mobilenumber as \"9840692787\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9840692787\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepdef1.user_enters_with_mobilenumber_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103418870,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters with dob as \"20/02/1999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20/02/1999\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdef1.user_enters_with_dob_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91998897,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters with address as \"perungalathur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"perungalathur\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdef1.user_enters_with_address_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106946560,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters with Security as \"what is your nick name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"what is your nick name\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdef1.user_enters_with_Security_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90582907,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters with answer as \"chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chennai\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdef1.user_enters_with_answer_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97495847,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify registration success",
+            "match": {
+              "location": "stepdef1.verify_registration_success()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test registration functional",
+    "description": "",
+    "id": "test-registration-functional",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Feature1.feature",
+    "tags": []
+  }
+]
